@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/reg.css"/>
+</head>
+<body>
+<main>
+    <form action="">
+        <ul>
+            <li>
+                <label for="tel"><span>手机/邮箱</span></label>
+                <input type="email tel" id="tel" placeholder="手机/邮箱" required=""/>
+               <!-- <div class="yin">请输入中国大陆手机号码或常用邮箱，可用登录或找回密码</div>-->
+            </li>
+            <li>
+                <label for="pwd"><span>密码</span></label>
+                <input type="password" id="pwd" placeholder="密码" required=""/>
+            </li>
+            <li>
+                <label for="yz"><span>验证码</span></label>
+                <input type="text" id="yz" placeholder="验证码" required=""/>
+                <input type="image" src="images/yzm.png"/>
+                <a href="">换一张</a>
+            </li>
+            <li>
+                <input type="checkbox" id="search" required=""/>
+                <label for="search"><span> 我已阅读并接受 <a href="">《XXXX用户协议》</a></span></label>
+            </li>
+            <li>
+                <input type="submit" value="注册">
+            </li>
+        </ul>
+    </form>
+</main>
+</body>
+</html>

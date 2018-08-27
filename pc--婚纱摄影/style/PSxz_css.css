@@ -1,0 +1,472 @@
+*{
+    margin: 0;padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url("../images/login_bg01%20(1).jpg") no-repeat right bottom fixed;
+    position: relative;
+}
+.mb{
+    width: 100%;
+    height:3260px;
+    background-color: rgba(255, 255, 255, .4);
+    position:absolute;
+    top:0;
+    left: 0;
+}
+header,nav,main,footer{
+    width:90%;
+    margin:0px 35px;
+}
+#zd{
+    position:fixed;
+    right:35px;
+    top:390px;
+    display: block;
+    width:30px;
+    height:45px;
+    background: url("../images/zhiding.jpg") no-repeat center;
+    border:1px solid #ccc;
+}
+/*头部区域*/
+header{
+    height: 135px;
+    background: url("../images/logo_da.png") no-repeat center 5px;
+    position: relative;
+}
+header h1{
+    display: none;
+}
+header span a{
+    width: 90px;
+    display: inline-block;
+    height: 20px;
+    background: url("../images/login01.jpg") #f5f2e9 no-repeat center;
+    position: relative;
+    top:8px;
+    right:-95%;
+}
+header span a:hover{
+    transform:scale(1.2);
+}
+#main_nav ul{
+    padding: 0px 11%;
+    height: 40px;
+    border-top:1px solid #000;
+    border-bottom:2px solid #888;
+    position: relative;
+    top:0;
+    right:-34px;
+    overflow: hidden;
+}
+#main_nav li{
+    float: left;
+    line-height:37px;
+    width: 13%;
+    margin-right:10px;
+    height: 37px;
+}
+#main_nav a{
+    font-size:12px;
+    color:#000;
+    padding-bottom:7px;
+}
+#main_nav li a:hover{
+    color:#333;
+    border-bottom:3px solid #30a4f6;
+    margin-bottom: 15px;
+}
+#main_nav ul li:nth-child(6) a{
+    display:inline-block;
+    background:#ffdfd9;
+    bordefr:#d3c3c4 1px solid;
+    height: 39px;
+    width: 60px;
+    position: relative;
+    top:-2px;
+    left:0px;
+    padding-left: 5px;
+}
+
+/*导航下的背景*/
+#bg{
+    width:100%;
+    height: 404px;
+}
+#bg img{
+    position: relative;
+    width: 100%;
+    height: 404px;
+}
+#bg .mb2{
+    width: 100%;
+    height: 404px;
+    background: rgba(0, 0, 0, .4);
+    position:relative;
+    top:-408px;
+    left:0px;
+}
+#bg ul{
+    position:absolute;
+    top:320px;
+    left:41%;
+}
+#bg li {
+    width: 250px;
+    height:35px;
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+}
+#bg li span{
+    display: inline-block;
+    width: 215px;
+    height: 3px;
+    background: #fff;
+    margin:23px 0px;
+}
+#bg li:nth-child(3){
+    font-size:18px;
+    font-weight:100;
+    margin-top:5px;
+}
+
+
+/*main主要内容区*/
+main{
+    width:85%;
+    background: rgba(255, 255, 255, .5);
+    margin: 0 auto;
+    position: relative;
+    top:0px;
+    left:0px;
+}
+main #xz{
+    font-size:30px;
+    color:#888;
+    font-weight: bold;
+    position:relative;
+    top:40px;
+    left:835px;
+}
+main #xz span{
+    font-weight:normal;
+    font-family:Arial;
+    font-size:24px;
+}
+main #hr{
+    height:3px;
+    width:56px;
+    background: #888;
+    display: inline-block;
+    position: absolute;
+    top:83px;
+    right:253px;
+}
+main .lc1{
+    margin-top:180px;
+    overflow: hidden;
+    padding-right:90px;
+}
+main .lc1 aside{
+    float: left;
+    height:680px;
+    width: 45%;
+    position: relative;
+    margin-left:70px;
+}
+main .lc1 .fk1{
+    width: 330px;
+    height:330px;
+    background: #fcd4d4;
+}
+main .lc1 .fk0{
+    width:330px;
+    height:330px;
+    border:2px solid #000;
+    position:absolute;
+    top:20px;
+    left:20px;
+}
+main .lc1 img{
+    position:relative;
+    width: 330px;
+    height: 330px;
+    top:-270px;
+    left:60px;
+}
+main .lc1 aside span{
+    border:1px solid #000;
+    padding: 5px 10px;
+    font-size:16px;
+    position: absolute;
+    top:460px;
+    left:10px;
+}
+main .lc1 aside p{
+    width:390px;
+    color: #ff625d;
+    font-size:15px;
+    position:relative;
+    top:-150px;
+    left:10px;
+    line-height:2em;
+}
+main .lc1 figure{
+    float: right;
+    width: 43%;
+    padding:35px;
+    margin-right: 30px;
+}
+main .lc1 figure figcaption{
+    font-size:40px;
+    font-family:Kaiti;
+    font-weight:bolder;
+    padding:0px 20px 30px;
+}
+main .lc1 figure p{
+    line-height:1.9em;
+    font-size:15px;
+    color:#333;
+}
+main .lc1 ul{
+    overflow: hidden;
+    width: 80%;
+    position: relative;
+    top:5px;
+    left: 170px;
+    margin-bottom:80px;
+}
+main .lc1 ul li{
+    float: left;
+    margin-right:70px;
+    color: #ee2827;
+    font-size:19px;
+    font-family: "SimHei";
+    font-weight: bolder;
+    position: relative;
+}
+main .lc1 ul li:last-child{
+    margin: 13px 0px 0px -17px;
+}
+main .lc1 ul li span{
+    font-size:15px;
+    color:#000;
+    font-weight: bolder;
+    display: inline-block;
+    position: absolute;
+    top:13px;
+    left:110px;
+}
+
+main .zy2{
+    overflow: hidden;
+    height:550px;
+}
+main .zy2 figure{
+    float: left;
+    width: 40%;
+    margin-left:60px;
+    padding:20px 30px 20px 40px;
+}
+main .zy2 figure figcaption{
+    font-size:40px;
+    font-family:Kaiti;
+    font-weight:bolder;
+    padding:0px 20px 20px 10px;
+}
+main .zy2 figure p{
+    line-height:1.9em;
+    font-size:15px;
+    text-align: justify;
+    color:#333;
+}
+main .zy2 figure span{
+    border:1px solid #000;
+    padding: 5px 10px;
+    font-size:16px;
+    position: relative;
+    top:30px;
+    left:0px;
+}
+main .zy2 figure p:last-child{
+    color: #ff625d;
+    position: relative;
+    top:50px;
+    left:0px;
+    font-size:15px;
+}
+main .zy2 .pic{
+    float: right;
+    width: 40%;
+    margin:50px 60px;
+    position: relative;
+}
+main .zy2 .pic .fk2{
+    width: 130px;
+    height: 130px;
+    background:url("../images/fk2.jpg") no-repeat center left;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+main .zy2 .pic img{
+    width:330px;
+    height:330px;
+    position:absolute;
+    top:60px;
+    left:70px;
+}
+main .zy2 .pic .fk02{
+    width:330px;
+    height:330px;
+    border:2px solid #000;
+    position:absolute;
+    top:30px;
+    left:30px;
+}
+main .zy3{
+    overflow: hidden;
+    margin:60px 0px 0px;
+    height:1047px;
+}
+main .zy3 aside{
+    float: left;
+    width:28%;
+    background:#fff;
+    padding: 20px 15px;
+    position:relative;
+    top:80px;
+    left:250px;
+}
+main .zy3 aside img{
+    width: 285px;
+}
+main .zy3 aside h2{
+    width: 500px;
+    font-family:Times New Roman;
+    letter-spacing: -3px;
+    font-size:23px;
+    line-height: 2em;
+    margin-left: -10px;
+}
+main .zy3 aside p{
+    line-height:1.9em;
+    font-size:15px;
+    text-align: justify;
+    color:#333;
+}
+main .zy3 .main_dl{
+    float:right;
+    width:55%;
+    height:510px;
+    background:#e2e2e2;
+    margin-right:80px;
+}
+main .zy3 .main_dl dl {
+    width: 250px;
+    margin:0px 0px 40px 170px;
+}
+main .zy3 .main_dl dt{
+    background: #f9f9f9;
+    font-size:30px;
+    font-weight: bolder;
+    font-family: Kaiti;
+    margin-bottom: 10px;
+    line-height:1.5em;
+    padding-left: 20px;
+}
+main .zy3 .main_dl dd{
+    background: #f9f9f9;
+    line-height:1.9em;
+    font-size:15px;
+    text-align: justify;
+    color:#333;
+    padding: 0px 20px;
+}
+main .zy3 .main_dl .nv{
+    position:absolute;
+    top:1610px;
+    left:440px;
+}
+main .zy3 .main_dl .nan{
+    position:absolute;
+    top:2020px;
+    left:440px;
+}
+
+/*下部分*/
+#small_nav{
+    position: absolute;
+    top:3070px;
+    left:550px;
+}
+#small_nav .phone{
+    font-size: 16px;
+    width:50px;
+    height:28px;
+    background: url("../images/phone.png") no-repeat center -4px;
+    border-right:2px solid #333;
+    line-height: 28px;
+    margin-right:8px;
+}
+#small_nav li{
+    float: left;
+    line-height: 28px;
+}
+#small_nav .li_B{
+    position: absolute;
+    top:45px;
+    left:-30px;
+    font-size:12px;
+}
+.li_B a{
+    margin-right: 15px;
+    color:#555;
+}
+.li_B a:hover{
+    color:#777;
+}
+#small_nav p:last-child{
+    color:#555;
+    font-size:12px;
+    margin: 80px 0px 5px -215px;
+}
+footer{
+    width:100%;
+    height: 40px;
+    position:absolute;
+    top:3220px;
+    left:-35px;
+    background:url("../images/login_bg01%20(1).jpg") no-repeat right bottom;
+}
+footer ul{
+    overflow: hidden;
+    margin-left:400px;
+    border-top:1px solid #ccc;
+}
+footer ul li{
+    font-size:12px;
+    color:#555;
+    float: left;
+    margin-right:70px;
+    line-height: 40px;
+}
+footer ul li a{
+    color:#555;
+}
+footer ul li a:hover{
+    color:#ccc;
+}

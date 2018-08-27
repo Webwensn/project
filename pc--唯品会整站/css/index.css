@@ -1,0 +1,660 @@
+/*===================================header================================*/
+header,main,footer{
+    width: 100%;
+}
+header{
+    position: relative;
+}
+/*-----------header #h_top------------*/
+header #h_top{
+    border-top: 1px;
+    height: 30px;
+    width: 100%;
+    background: #F5F5F5;
+    font: 12px/30px "微软雅黑";
+}
+
+/*header #h_top select*/
+header #h_top select{
+    width:60px;
+    font-size: 12px;
+    border: none;
+    background: #F5F5F5;
+    margin-top: 5px;
+}
+header #h_top select:focus{
+    background-color: #fff;
+}
+/*header #h_top nav*/
+header #h_top nav ul li{
+    float: left;
+    padding: 0px 10px;
+    position: relative;
+}
+header #h_top nav ul li a{
+    display: inline-block;
+    width: 100%;
+    color: #666666;
+}
+header #h_top nav ul li:nth-last-child(1) a:after,
+header #h_top nav ul li:nth-last-child(5) a:after,
+header #h_top nav ul li:nth-last-child(7) a:after,
+header #h_top nav ul li:nth-last-child(9) a:after{
+    content: "▼";
+    color: #999999;
+}
+header #h_top nav ul li:hover>a{
+    color:#F10180;
+}
+header #h_top nav ul li:nth-last-child(1):hover a:after,
+header #h_top nav ul li:nth-last-child(5):hover  a:after,
+header #h_top nav ul li:nth-last-child(7):hover  a:after,
+header #h_top nav ul li:nth-last-child(9):hover  a:after{
+    content: "▲";
+    color:#F10180;
+}
+header #h_top nav ul li:nth-child(1) dl{
+    width: 280px;
+    height: 150px;
+    border:1px solid #ccc;
+    border-top:none;
+    background: #fff;
+    position: absolute;
+    left: -1px;
+    top: 30px;
+    padding: 20px;
+    display: none;
+}
+header #h_top nav ul li:nth-child(1) dl dt{
+    margin-bottom: 5px;
+}
+header #h_top nav ul li:nth-child(1) dl dt span{
+    width:40px;
+    height:40px;
+    background: url("../images/index/sprites.png") no-repeat -165px -140px;
+    border-radius:50% ;
+}
+header #h_top nav ul li:nth-child(1) dl dt a{
+    width: 75%;
+    border-bottom: 1px dashed #F1F1F1;
+}
+header #h_top nav ul li:nth-child(1) dl dd{
+    width: 50%;
+    float: left;
+    line-height: 2em;
+}
+header #h_top nav ul li:nth-child(1):hover{
+    background: #fff;
+}
+header #h_top nav ul li:hover dl{
+    display: block;
+}
+header #h_top nav ul li dl a:hover{
+    color:#F10180;
+}
+
+header #h_top nav ul li:nth-child(5){
+    background: url("../images/index/header_sign-hash.gif") no-repeat left center;
+    padding-left: 20px;
+}
+
+header #h_middle{
+    height: 100px;
+}
+header #h_middle ul li{
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    margin-right: 10px;
+   /* padding: 20px 10px;*/
+}
+header #h_middle ul li a img{
+    height:90px;
+    margin-top: 10px;
+}
+header #h_middle ul li:nth-child(3){
+    position: relative;
+    left:100px;
+}
+header #h_middle ul li:nth-child(3) input{
+    padding:5px 15px;
+    width: 310px;
+    border-radius:3px;
+    border:1px solid #4C4C4C;
+    font: 14px/14px "微软雅黑";
+}
+/*搜索下拉菜单*/
+header #h_middle ul li:nth-child(3) input:focus{
+
+}
+header #h_middle ul li:nth-child(3) img{
+    width:25px;
+    height: 25px;
+    position: absolute;
+    top:30px;
+    right: 10px;
+}
+header #h_middle ul li:last-child a img{
+    position: relative;
+    top:13px;
+    left:110px;
+    width: 110px;
+    height:38px;
+}
+
+/*header #h_btm*/
+header:hover #h_btm nav{
+    position:relative;
+    top:0px;
+    left:0px;
+}
+header #h_btm{
+
+}
+header #h_btm nav{
+    height: 40px;
+    background: #F10180;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+header #h_btm nav li{
+    float: left;
+    position: relative;
+    font: 14px/40px "微软雅黑";
+}
+
+/*header #h_btm nav左面*/
+header #h_btm nav>li:first-child a{
+    background: #BD1067;
+    font-weight: bold;
+}
+header #h_btm nav>ul>li a{
+    display: inline-block;
+    color:#FFFFFF;
+    font: 14px/40px "微软雅黑";
+    padding: 0px 15px;
+}
+header #h_btm nav>ul>li>a:hover{
+    background: #BD1067;
+    z-index: 1000;
+}
+header #h_btm nav li:first-child  a{
+    background: #BD1067;
+}
+header #h_btm nav li ul{
+    width: 590px;
+    height: 260px;
+    background: #fff;
+    box-shadow: 0px -1px 1px #BD1067;
+    position: absolute;
+    top:40px;
+    left:-519px;
+    padding: 20px 10px;
+    display: none;
+}
+header #h_btm nav li:hover ul{
+    display: block;
+ }
+header #h_btm nav li ul li{
+    float: left;
+    width: 170px;
+    height: 98px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+header #h_btm nav li ul li a img{
+    width: 170px;
+    height:98px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+header #h_btm nav li ul li a p{
+    width: 170px;
+    height:98px;
+    font: 16px/98px "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background: linear-gradient(rgba(255,255,255,.0),rgba(0,0,0,.6));
+}
+header #h_btm nav li ul li a:hover p{
+    transition: 0.5s all;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(rgba(255,255,255,.0) 10%,rgba(0,0,0,.6));
+}
+
+
+/*header #h_btm nav右面*/
+header #h_btm nav .float_r li a{
+    padding: 0px 10px 0px 30px;
+    background: url("../images/index/search2.jpg") no-repeat left center;
+}
+header #h_btm nav .float_r li:last-child a{
+    background: url("../images/index/h_btm_li.jpg") no-repeat left center;
+}
+header #h_btm nav .float_r li:hover{
+    background: #DB0A76;
+}
+header #h_btm nav .float_r li:first-child a:hover{
+    background: url("../images/index/search2.1.png") no-repeat left center;
+}
+
+header #h_btm nav .float_r li:last-child a:hover{
+    background: url("../images/index/li2.1.png") no-repeat left center;
+}
+/*header #h_btm  #banner*/
+header #h_btm  #banner{
+    height: 425px;
+    background: url("../images/index/banner_bg.jpg") no-repeat center top;
+    -webkit-background-size:115%;
+    background-size:115%;
+}
+header #h_btm  #banner ol{
+    height: 310px;
+    width: 920px;
+    overflow:hidden ;
+    position: relative;
+    top:60px;
+    left: 30px;
+}
+header #h_btm  #banner ol li{
+    float: left;
+}
+header #h_btm  #banner ol li img{
+    height: 310px;
+    width: 920px;
+}
+header #h_btm  #banner ul{
+    width:94%;
+    font:12px/40px "微软雅黑";
+    height: 40px;
+    position: relative;
+    top:60px;
+    margin: 0 auto;
+    padding: 0 23%;
+    box-shadow: 0px 1px 2px #ccc;
+}
+header #h_btm  #banner ul li{
+    float: left;
+    color:#EAEAEA;
+}
+header #h_btm  #banner ul li a{
+    color:#666666;
+    margin: 0px 10px;
+    font:12px/40px "微软雅黑";
+}
+header #h_btm  #banner ul li:hover{
+    border-bottom:2px solid #496CB3;
+}
+/*============================#aside====================================*/
+#aside{
+    width: 36px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    z-index: 100;
+    background: #262626;
+    padding: 50px 0px 20px;
+}
+#aside li{
+    width: 100%;
+    height:25px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#aside li:nth-child(1){
+    height: 40px;
+    background: url("../images/index/h_aside1.png") no-repeat center;
+}
+#aside li:nth-child(2){
+    height: 150px;
+    background: url("../images/index/h_aside2.jpg") no-repeat center;
+}
+#aside li:nth-child(3){
+    background: url("../images/index/h_aside3.jpg") no-repeat center;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+}
+#aside li:nth-child(4){
+    background: url("../images/index/h_aside4.jpg") no-repeat center;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+}
+#aside li:nth-child(5){
+    background: url("../images/index/h_aside5.jpg") no-repeat center;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+}
+#aside li:nth-child(6){
+    background: url("../images/index/h_aside6.jpg") no-repeat center;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+}
+#aside li:nth-child(7){
+    background: url("../images/index/h_aside7.jpg") no-repeat center;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+    margin-top: 130px;
+}
+#aside li:nth-child(8){
+    background: url("../images/index/h_aside8.jpg") no-repeat center;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+}
+#aside li a p{
+    width: 110px;
+    height: 35px;
+    font:14px/35px "微软雅黑";
+    text-align: center;
+    background: #fff;
+    border:1px solid #DDDDDD;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    color:#6E6E6E;
+}
+#aside li:hover p{
+    transition: 1s all;
+    position: absolute;
+    top:0px;
+    left: -110px;
+    opacity: 1;
+    color:#6E6E6E;
+}
+
+/*===========================main==================================*/
+main{
+    margin: 15px auto;
+}
+/*main #art1*/
+main #art1{
+    margin-top: 50px;
+    height:680px;
+}
+main #art1 h2{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+main #art1 h2 img{
+    height: 28px;
+}
+main #art1 aside{
+    width:27%;
+    height: 600px;
+    overflow: hidden;
+}
+main #art1 aside a img{
+    width: 100%;
+}
+ main #art1 dl{
+    width: 73%;
+}
+main #art1 dl dt ul{
+    position: relative;
+    left:38%;
+    top:0px;
+    height: 20px;
+}
+main #art1 dl dt ul li{
+    float: left;
+    font-size:14px ;
+}
+main #art1 dl dt ul li a{
+    padding: 5px 10px;
+    border-right:1px solid #ccc;
+    color:#333333;
+}
+main #art1 dl dt ul li:last-child a{
+    border:none;
+}
+main #art1 dl dt ul li:hover a{
+    background: #F10180;
+    border-radius: 10px;
+    color:#fff;
+}
+main #art1 dl ul{
+    margin-top: 13px;
+}
+main #art1 dl ul li{
+    float: left;
+}
+main #art1 dl dd ul li {
+    width: 25%;
+    height: 277px;
+    border-top:1px solid #E5E5E5;
+    border-right:1px solid #E5E5E5;
+}
+main #art1 dl dd ul li:nth-child(5),main #art1 dl dd ul li:nth-child(6),main #art1 dl dd ul li:nth-child(7),main #art1 dl dd ul li:nth-child(8){
+    border-bottom:1px solid #E5E5E5;
+}
+main #art1 dl dd ul li img{
+    height: 100%;
+}
+
+/*main #art2*/
+main #art2{
+    margin-top: 50px;
+}
+main #art2 h2{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+main #art2 h2 img{
+    width: 100%;
+}
+main #art2 ul li{
+    width: 33%;
+    float: left;
+    margin-right: 0.5%;
+}
+main #art2 ul>li:last-child{
+    margin-right: 0;
+}
+main #art2 ol li{
+    width: 48%;
+    margin-top:20px;
+    position: relative;
+}
+main #art2 ol li:nth-child(2n-1){
+    float: left;
+}
+main #art2 ol li:nth-child(2n){
+    float:right;
+}
+main #art2 ol li ul img{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: none;
+}
+main #art2 ol li:hover ul img{
+    display: block;
+}
+main #art2 ol li:nth-child(5):hover{
+    opacity: 0.5;
+}
+
+/*main #art3*/
+main #art3 dl{
+    margin-top: 30px;
+}
+main #art3 dl dt{
+    height: 35px;
+    border-bottom: 1px solid #1A1A1A;
+}
+main #art3 dl dt img{
+    height:35px;
+}
+main #art3 dl dt a{
+    font-size: 12px;
+    margin: 13px 5px 0px 0px;
+    color:#333333;
+}
+main #art3 dl dt a:hover{
+    color:#F10180;
+}
+main #art3 dd{
+    border-bottom:1px solid #E8E8E8 ;
+}
+main #art3 dl>a:hover img,main #art4>a:hover img{
+    transform: rotateY(360deg);
+    transition: 1s all;
+    opacity: 0.8;
+}
+main #art3 dl>a img,main #art4>a img{
+    position: relative;
+    left: 33%;
+}
+main #art3 dd ul li{
+    width: 49%;
+    height: 300px;
+    margin-top:20px;
+    float: left;
+    position: relative;
+}
+main #art3 ul li a{
+    width: 100%;
+}
+main #art3 dd ul li:nth-child(2n-1){
+    float: left;
+}
+main #art3 dd ul li:nth-child(2n){
+    float:right;
+}
+main #art3 dd ul li img{
+    width: 100%;
+}
+main #art3 dd ul li:hover{
+    opacity: 0.6;
+}
+main #art3 dd ul li:hover:before{
+    content: url("../images/index/m_art3_a.png");
+    position: absolute;
+    right:12px;
+    bottom:44px;
+    cursor: pointer;
+}
+
+/*main #art4*/
+main #art4{
+    margin-top: 50px;
+}
+main #art4 h2{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+main #art4 h2 img{
+    width: 100%;
+}
+main #art4 ul li{
+    width: 30%;
+    height: 180px;
+    float: left;
+    margin: 30px 0px 5px 0px;
+    position: relative;
+}
+main #art4 ul li img{
+    width: 100%;
+    height: 100%;
+}
+main #art4 ul li:nth-child(3n-1){
+    margin: 30px 20px 5px 20px;
+}
+main #art4 ul li:hover div{
+    display: block;
+ }
+main #art4 ul li div{
+    width: 100%;
+    position: absolute;
+    bottom:-3px;
+    display: none;
+}
+main #art4 ul li input{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+}
+main #art4 ul li div a{
+    position: absolute;
+    right:0px;
+    font: 14px/30px "微软雅黑";
+    padding: 0px 10px;
+    color:#64B1DD;
+    border-left: 1px solid #ccc;
+}
+main #art4>a{
+    position: relative;
+    top: 20px;
+}
+/*=======================footer=============================*/
+footer{
+    height: 480px;
+    background: #FCFCFC;
+    border: 1px solid #EBEBEB;
+    padding: 20px 0px;
+    font-size: 12px;
+    line-height: 1.8em;
+
+}
+footer h2{
+    width:90%;
+    margin: 0 auto;
+}
+footer h2 img{
+    width: 100%;
+}
+footer #f_list dl{
+    width: 16.66%;
+    float: left;
+    border-right:1px solid #E0E0E0;
+    padding: 0px 0px 0px 20px;
+    margin-top: 20px;
+}
+footer #f_list dl dd a{
+    color:#808080;
+    font-size: 11px;
+}
+footer #f_list dl dd a:hover{
+    color:#F10180;
+    transition: 0.2s all;
+    padding-left: 3px;
+}
+footer #f_list dl:last-child{
+    border: none;
+    text-align: center;
+}
+footer #f_list dl:last-child dd img{
+    width: 90px;
+    height: 90px;
+}
+footer p{
+    text-align: center;
+    font-size:10px ;
+}
+footer>p:nth-of-type(1){
+    background: #D7237E;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    text-align: center;
+    margin: 15px 0px;
+}
+footer #f_btm{
+    padding-top: 10px;
+    text-align: center;
+}

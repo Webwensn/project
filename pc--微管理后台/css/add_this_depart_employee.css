@@ -1,0 +1,80 @@
+main{
+    width:800px;
+    height:475px;
+    border:1px solid #999;
+    border-radius: 5px;
+}
+main dl dt{
+    width: 100%;
+    height: 60px;
+    background: #F0F6FA;padding: 0px 20px;
+}
+main dl dt h3{
+    font: 14px/60px "微软雅黑";
+    font-weight: normal;
+}
+main dd form{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    height:355px;
+    padding: 0px 20px 0px;
+}
+main dd form section h4{
+    border-bottom: 1px solid #DDDDDD;
+    font:16px/2em "微软雅黑";
+    margin-top: 15px;
+}
+main dd form section h4 span{
+    color:red;
+}
+main dd form ol li{
+    margin-top: 20px;
+    width: 360px;
+    float: left;
+}
+main dd form ol li:nth-child(2n-1){
+    margin-right:30px;
+}
+main dd form ol li p{
+    font:14px/2em "微软雅黑";
+    color:#555;
+    font-weight: bold;
+}
+main dd form ol li input{
+    border: 1px solid #ccc;
+    border-radius:5px ;
+    height: 32px;
+    width: 100%;
+    font: 14px/32px "微软雅黑";
+    padding: 0px 15px;
+}
+main dd form ol li span{
+    width:100px;
+    text-align: right;
+    display: inline-block;
+    font: 14px/32px "微软雅黑";
+    font-weight: bold;
+}
+
+main dd ul{
+    background: #F0F6FA;
+    height:57px;
+    padding: 0px 20px;
+}
+main dd ul li{
+    height: 57px;
+    font: 14px/57px "微软雅黑";
+    position: relative;
+    top: 0px;
+    left:560px;
+}
+main dd ul li a{
+    color:#fff;
+    background: #428BCA;
+    padding:10px 15px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+main dd ul li a:hover{
+    background: #357EBD;
+}

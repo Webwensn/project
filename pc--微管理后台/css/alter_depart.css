@@ -1,0 +1,59 @@
+main{
+    width: 600px;
+    height: 320px;
+    border:1px solid #999;
+    border-radius: 5px;
+}
+main dl dt{
+    width: 100%;
+    height: 60px;
+    background: #F0F6FA;padding: 0px 20px;
+}
+main dl dt h3{
+    font: 14px/60px "微软雅黑";
+    font-weight: normal;
+}
+main dd form{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    height: 200px;
+    padding: 0px 20px;
+}
+main dd form input{
+    border: 1px solid #ccc;
+    width: 425px;
+    border-radius:5px ;
+    height: 32px;
+    margin-left: 10px;
+}
+main dd form ol li{
+    margin-top: 20px;
+}
+main dd form ol li span{
+    width:100px;
+    text-align: right;
+    display: inline-block;
+    font: 14px/32px "微软雅黑";
+    font-weight: bold;
+}
+main dd form ol li span time{
+    color:red;
+}
+main dd ul{
+    background: #F0F6FA;
+    height:57px;
+    padding: 0px 20px;
+}
+main dd ul li{
+    height: 57px;
+    font: 14px/57px "微软雅黑";
+}
+main dd ul li a{
+    color:#fff;
+    background: #428BCA;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+main dd ul li:first-child a{
+    background: #999999;
+}

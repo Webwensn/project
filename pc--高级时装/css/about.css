@@ -1,0 +1,347 @@
+/*-----------------------------header-----------------------------------------*/
+/*=================header #h_top================*/
+header #h_top{
+    height: 350px;
+    background: url("../images/inner-page-banner.jpg") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    color:#fff;
+}
+header #h_top .aIn{
+    font:40px/150px "Arial" ;
+    height: 150px;
+    letter-spacing: -2px;
+    color:#fff;
+}
+header #h_top .aIn:hover{
+    color:#EF4C89;
+    transition: 0.5s all;
+}
+header #h_top h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+/*==============header nav====================*/
+
+header nav{
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    height:40px;
+    background:url("../images/menu.png") no-repeat  94% center  ;
+    -webkit-background-size: 3% 85%;
+    background-size: 3% 85%;
+    z-index: 999;
+}
+header nav ul{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 120px;
+    background: #000;
+    display: none;
+    z-index: 999;
+}header nav:hover ul{
+     display: block;
+     padding: 0px 32%;
+ }
+header nav:hover ul li{
+    float: left;
+    margin-left: 10px;
+}
+header nav:hover ul li a{
+    color:#fff;
+    display: inline-block;
+    width: 100px;
+    height: 120px;
+    font: 16px/120px "微软雅黑";
+    font-weight: bold;
+    background: url("../images/hul_1.jpg") no-repeat center left;
+    padding-left: 25px;
+}
+header nav:hover ul li:nth-of-type(2) a{
+    background: url("../images/hul_2.jpg") no-repeat center left;
+}
+header nav:hover ul li:nth-of-type(3) a{
+    background: url("../images/hul_3.jpg") no-repeat center left;
+}
+header nav:hover ul li:nth-of-type(4) a{
+    background: url("../images/hul_4.jpg") no-repeat center left;
+}
+header nav:hover ul li a:hover{
+    color: #EF4C89;
+}
+
+/*----------------------------main-----------------------------------*/
+/*===========main #sec1=============*/
+main #sec1{
+    height: 590px;
+    padding:90px 6%;
+}
+main #sec1 dl{
+
+}
+main #sec1 dl dt{
+    width:50%;
+}
+main #sec1 dl dt ul li{
+    float: left;
+    width: 48%;
+    margin-right:1.5%;
+    margin-bottom: 1%;
+}
+main #sec1 dl dt ul li a:hover img{
+    transform: scale(1.1) rotateZ(360deg);
+    transition: 2s all;
+}
+main #sec1 dl dt ul li:nth-of-type(2):hover  a img,main #sec1 dl dt ul li:nth-of-type(3):hover  a img{
+    transform: scale(0.9) rotateZ(-360deg);
+    transition: 2s all;
+}
+main #sec1 dl dt img{
+    width: 100%;
+}
+main #sec1 dl dd{
+    width:48%;
+    float: right;
+}
+main #sec1 dl dd h4{
+    font-size:40px;
+    color:#EF4C89;
+    margin-bottom: 20px;
+}
+main #sec1 dl dd p{
+    color:#333;
+}
+
+/*-------------main #sec2-------------*/
+main #sec2{
+    height:830px;
+    background: #2C262A;
+    color:#EEEEEE;
+    padding: 80px 6%;
+}
+main #sec2 #sec2_l{
+    width: 49%;
+}
+main #sec2 #sec2_l dd{
+    width: 100%;
+}
+main #sec2 #sec2_l dd img{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px;
+}
+main #sec2 #sec2_l dd h4{
+    font:26px/60px "微软雅黑";
+}
+main #sec2 #sec2_l dd p{
+    color:#eee;
+}
+main #sec2 #sec2_r{
+    width: 49%;
+}
+main #sec2 #sec2_r>dd{
+    width: 100%;
+    height: 195px;
+    background: #343C47;
+    margin-top: 20px;
+}
+main #sec2 #sec2_r>dd:hover dt img{
+    opacity: 1;
+    transition: 0.5s all;
+}
+main #sec2 #sec2_r>dd:hover dd{
+    padding-left: 20px;
+    transition: 1s all;
+}
+main #sec2 #sec2_r dd dt{
+    height:195px;
+    background: #000;
+}
+main #sec2 #sec2_r dd dt img{
+    width: 195px;
+    height: 100%;
+    opacity: 0.7;
+}
+main #sec2 #sec2_r dd dd{
+    float: right;
+    width:370px;
+}
+main #sec2 #sec2_r dd a{
+    color:#EEEEEE;
+}
+main #sec2 #sec2_r dd a dd  h5{
+    font:20px/62px "微软雅黑";
+}
+main #sec2 #sec2_r dd a dd  time{
+    font:16px/30px "微软雅黑";
+}
+main #sec2 #sec2_r dd dd p{
+    color:#ccc;
+}
+/*------------main #sec3-----------*/
+main #sec3{
+    height:760px;
+    background: linear-gradient(#F5F5F5,#fff);
+    padding: 80px 6%;
+}
+main #sec3 a dt h3{
+    color:#FFFFFF;
+    font:40px/50px "微软雅黑";
+    padding: 30px;
+}
+main #sec3 a dd p{
+    color:#fff;
+    margin: 30px;
+}
+main #sec3 #sec3_l{
+    width: 49%;;
+    height: 600px;
+    background: url("../images/style-1.jpg") no-repeat center;
+    position: relative;
+}
+main #sec3 #sec3_l a:hover dd:nth-of-type(1){
+    opacity: 0;
+}
+main #sec3  a:hover dd:nth-of-type(2){
+    text-indent: 2em;
+    transition: 1s all;
+}
+main #sec3  dt{
+    width:100%;
+}
+main #sec3 dd{
+    width: 100%;
+}
+main #sec3 #sec3_l dd:nth-of-type(1){
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    opacity: 0.3;
+}
+main #sec3 #sec3_r{
+    width: 49%;
+    padding: 0;
+}
+main #sec3 #sec3_r li{
+    position: relative;
+    width: 100%;
+    height:285px;
+    margin-bottom: 30px;
+    background: url("../images/style-2.jpg") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+main #sec3 #sec3_r li:nth-of-type(2){
+    background: url("../images/style-3.jpg") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+main #sec3 #sec3_r li dd:nth-of-type(1){
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+    background: #000;
+    opacity: 0.3;
+}
+main #sec3 #sec3_r li a:hover dd:nth-of-type(1){
+    opacity: 0.1;
+}
+
+/*==========================footer===============================*/
+footer{
+    height: 530px;
+    background: #000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0px 15%;
+}
+footer #f_top{
+
+}
+footer #f_top h2{
+    padding: 30px 0px;
+    font:32px/80px "微软雅黑";
+    font-weight:bold ;
+    color:#EF4C89;
+}
+/*-----------footer #f_top-----------*/
+footer #f_top p{
+    width: 600px;
+    margin: 0 auto;
+    font:14px/30px "微软雅黑";
+}
+footer #f_center{
+    width: 100%;
+    border-bottom:1px solid #CCCCCC ;
+    padding:30px 0px 10px 15px;
+}/*
+footer #f_center #sec4_dl{
+    width: 400%;
+    height: 455px;
+}*/
+footer #f_center dl{
+    text-align: left;
+    float: left;
+    width: 25%;
+    float: left;
+}
+footer #f_center dl dt{
+    font:18px/50px "微软雅黑";
+    height:50px;
+}
+footer #f_center dl dd{
+    background:url("../images/f_1.jpg") no-repeat center left;
+    padding-left: 20px;
+    font: 12px/26px "微软雅黑";
+}
+footer #f_center dl:nth-of-type(2) dd{
+    background:url("../images/f_2.jpg") no-repeat center left;
+}
+footer #f_center dl:nth-of-type(3) dd{
+    background:url("../images/f_3.jpg") no-repeat center left;
+}
+footer #f_center dl:nth-of-type(4) dd{
+    background:none;
+    padding-left: 0px;
+}
+footer #f_center dl:nth-of-type(4) dd input{
+    width: 100%;
+    height: 35px;
+    background: #333333;
+    border: none;
+    padding: 10px 10px;
+    color:#656565;
+}
+footer #f_center dl:nth-of-type(4) dd a{
+    display: inline-block;
+    width: 68px;
+    height: 32px;
+    background: #EF4C89;
+    color: #fff;
+    font: 14px/32px "微软雅黑";
+    text-align: center;
+    float: right;
+    margin-top: 15px;
+    font-weight: bold;
+}
+footer #f_center dl dd a{
+    color:#CCCCCC;
+}
+footer #f_center dl dd a:hover{
+    color: #fff;
+}
+
+/*-----------footer #f_btm------------------*/
+footer #f_btm{
+    font:14px/120px "微软雅黑";
+    height: 120px;
+}

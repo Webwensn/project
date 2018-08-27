@@ -1,0 +1,388 @@
+*{
+    margin: 0;padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+header h1{
+    display:none;
+}
+header #logo img{
+    position:absolute;
+    top:-10px;
+    left:15px;
+    width: 240px;
+}
+/*大背景轮播图*/
+.box{
+    width: 100%;
+    height:650px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.box .pic{
+    list-style-type: none;
+    width:800%;
+    position: absolute;
+    /*   left:0px;//0 -1000 -2000 -3000  -i*1000   */
+}
+.pic li{
+    float: left;
+}
+.pic li img{
+    width:76.5%;
+    height: 100%;
+}
+.box .circle{
+    position: absolute;
+    right:40%;
+    bottom:20px;
+    list-style-type: none;
+}
+.circle li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius:10px;
+    border:1px solid #333;
+    margin-right: 10px;
+}
+
+/*导航*/
+header #nav{
+    display:block;
+    width: 133px;
+    height: 36px;
+    background: url("../images/nav.jpg")  no-repeat center;
+    position:fixed;
+    top:20px;
+    right:0px;
+}
+header #nav article{
+    display: none;
+    width:220px;
+    height:597px;
+    background:rgba(0,0,0,.8);
+    position:absolute;
+    top:33px;
+    right:0px;
+    padding:30px 10px;
+    line-height: 2em;
+}
+header #nav:hover article{
+    display: block;
+}
+header #nav article h3{
+    color:#ccc;
+    font-style: italic;
+    font-size: 22px;
+}
+header #nav article h5{
+    color:#ccc;
+    font-size:16px;
+    font-style: italic;
+    margin:15px 0px 20px 100px ;
+}
+header #nav article ul{
+    position:absolute;
+    top:120px;
+    left:0px;
+    padding-left: 20px;
+}
+header #nav article li{
+    position: relative;
+}
+header #nav article li a{
+    color:#ccc;
+    font-style: italic;
+    font-size: 16px;
+}
+header #nav article li a:hover{
+    color:#fff;
+}
+header span article ul>li{
+    line-height:1.5em;
+    margin-bottom:20px;
+}
+header span article li span{
+    display: block;
+    font-size:14px;
+}
+article li ol li{
+    line-height:1em;
+}
+article li .lx{
+    display: none;
+    width:100px;
+    height:75px;
+    background:rgba(0,0,0,.9);
+    position:absolute;
+    top:-6px;
+    left:-100px;
+    padding:13px;
+    z-index: 100;
+}
+article li .lx li:last-child{
+    margin-top:15px;
+}
+.lxwm:hover .lx{
+    display: block;
+}
+article li .lx a:hover{
+    color: #fff;
+}
+
+/*main中间部分*/
+main{
+    width: 100%;
+    height: 100%;
+}
+main #d1{
+    position: relative;
+    top:-15px;
+    left:0px;
+    width:100%;
+    height:530px;
+    background:url("../images/mk2bg.jpg") no-repeat right top;
+}
+main #d1 ul{
+    position: absolute;
+    top:100px;
+    left:90px;
+}
+main #d1 ul li{
+    float: left;
+    margin-right: 115px;
+    position: relative;
+}
+main #d1 ul li img{
+    width: 300px;
+}
+main #d1 ul li a{
+    color:#fff;
+    font-size: 26px;
+    font-family:"Kaiti";
+}
+main #d1 ul li p{
+    font-size:28px;
+    position: absolute;
+    top:150px;
+    left:90px;
+}
+main #d1 ul li span{
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top:195px;
+    left:130px;
+}
+main #d1 ul li h3{
+    position: absolute;
+    top:300px;
+    left:80px;
+}
+main #d1 ul li a:hover{
+    letter-spacing:5px;
+    transition:2s all;
+}
+main #d1 ul li a:hover span{
+    width:60px;
+    transition:2s all;
+}
+main #d2{
+    background-image: url("../images/mk3bg.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -15px;
+}
+/*main #d2 .pic1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}*/
+main #d2 section{
+    width: 300px;
+    position: relative;
+    top:60px;
+    left:500px;
+    font-size:24px;
+    border:1px solid #fff;
+    line-height: 1.5em;
+    text-align: center;
+}
+main #d2 section a{
+    color:#fff;
+}
+main #d2 section div{
+    width: 1px;
+    height:60px;
+    background: #fff;
+    position: absolute;
+    top:-61px;
+    left:150px;
+}
+main #d2 section h3{
+    font-weight: normal;
+}
+main #d2 section span{
+    display: inline-block;
+    width:55px;
+    height: 2px;
+    background: #fff;
+    position:absolute;
+    top:41px;
+    left:118px;
+}
+main #d2 section h5{
+    font-size:22px;
+    font-weight: normal;
+    position:relative;
+    top:10px;
+    left:0px;
+}
+main #d2 section p{
+    font-size:12px;
+}
+main #d2 ul{
+    overflow: hidden;
+    position: absolute;
+    top:274px;
+    left:120px;
+}
+main #d2 ul li{
+    overflow: hidden;
+    float: left;
+    width: 43%;
+    margin-right:70px;
+}
+main #d2 ul li a{
+    color:#fff;
+    font-size:16px;
+    position: relative;
+}
+main #d2 ul li img{
+    width: 100%;
+}
+main #d2 ul li .mb01{
+    position:absolute;
+    top:20px;
+    left:0px;
+    height:340px;
+    width: 100%;
+    background:rgba(0,0,0,.4);
+    font-size:24px;
+    text-align: center;
+    padding-top:300px;
+}
+main #d2 ul li .mb01 span{
+    position: relative;
+    top: -5px;
+}
+main #d2 ul li time{
+   float: right;
+}
+main #d2 ul li a:hover img{
+    transform:scale(1.01);
+    transition:1s all;
+}
+main #d2 ul li a:hover .mb01{
+    display: none;
+}
+
+/*下部分*/
+#bg_nav{
+    width: 100%;
+    height: 200px;
+    position:absolute;
+    top:1803px;
+    left:0px;
+    background: url("../images/mk3bg.jpg") no-repeat center bottom;
+}
+#small_nav{
+    width: 100%;
+    position: absolute;
+    top:1850px;
+    left:0px;
+    padding-left:600px;
+}
+#small_nav .phone{
+    font-size: 16px;
+    width:50px;
+    height:28px;
+    background: url("../images/phone.png") no-repeat center -4px;
+    border-right:2px solid #333;
+    line-height: 28px;
+    margin-right:8px;
+}
+#small_nav li{
+    float: left;
+    line-height: 28px;
+}
+#small_nav .li_B{
+    position: absolute;
+    top:45px;
+    left:570px;
+    font-size:12px;
+}
+.li_B a{
+    margin-right: 15px;
+    color:#555;
+}
+.li_B a:hover{
+    color:#777;
+}
+#small_nav p:last-child{
+    color:#555;
+    font-size:12px;
+    margin: 80px 0px 5px -215px;
+}
+footer{
+    border-top:1px solid #ccc;
+    width:100%;
+    height: 40px;
+    position:absolute;
+    top:1980px;
+    left:0px;
+    background:url("../images/login_bg01%20(1).jpg") no-repeat right bottom;
+}
+footer ul{
+    overflow: hidden;
+    margin-left:450px;
+    border-top:1px solid #ccc;
+}
+footer ul li{
+    font-size:12px;
+    color:#555;
+    float: left;
+    margin-right:70px;
+    line-height: 40px;
+}
+footer ul li a{
+    color:#555;
+}
+footer ul li a:hover{
+    color:#ccc;
+}

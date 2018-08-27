@@ -1,0 +1,238 @@
+/*========================header============================*/
+header{
+    height: 80px;
+    border-bottom: 2px solid #F3168A;
+    padding: 0px 10% 0px 0px;
+}
+header dl{
+
+}
+header dl dt{
+    height: 100%;
+    width: 40%;
+}
+header dl dt img{
+    width: 180px;
+    margin-top: 10px;
+}
+header dl dd{
+    width: 60%;
+    height: 80px;
+}
+header dl dd>p a img{
+    width: 70%;
+    position: relative;
+    left: 200px;
+    top:10px;
+}
+header dl dd ol{
+    float: right;
+}
+header dl dd li{
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 15px 10px 0px 0px;
+    padding-left: 30px;
+}
+header dl dd li:nth-child(1){
+    background: url("../images/shop/hr_1.jpg") no-repeat left center;
+}
+header dl dd li:nth-child(2){
+    background: url("../images/shop/hr_2.jpg") no-repeat left center;
+}
+header dl dd li:nth-child(3){
+    background: url("../images/shop/hr_3.jpg") no-repeat left center;
+}
+header dl dd li a{
+    color:#333;
+}
+
+/*========================main==========================*/
+main{
+
+}
+main #art1{
+
+}
+main #art1>a{
+    display: block;
+    width: 100%;
+}
+main #art1>a img{
+    width:65%;
+    margin:30px 120px;
+}
+main #art1>dl>dt{
+    width: 100%;
+    border-bottom: 1px solid #D0D0D0;
+    padding-bottom:5px;
+}
+main #art1>dl>dt a{
+    font-size: 16px;
+    line-height: 30px;
+    color:#F10180;
+    border-bottom: 2px solid #F10180;
+    padding-bottom: 8px;
+}
+main #art1>dl>dd{
+    width: 100%;
+    border:1px solid #E0E0E0;
+    margin-top: 25px;
+}
+main #art1>dl>dd>ul:first-child{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    background: #F9F9F9;
+    border-bottom: 1px solid #E0E0E0;
+    border-left: 2px solid #F10180;
+    padding: 0px 15px;
+}
+main #art1>dl>dd ul li{
+    float: left;
+    color:#F10180;
+}
+main #art1>dl>dd ul li:first-child{
+    width: 530px;
+}
+main #art1>dl>dd ul li span{
+    font-size: 12px;
+    color:#333333;
+}
+main #art1>dl>dd>ul li:not(:first-child){
+    margin-left:100px;
+}
+main #art1>dl dd dl{
+    height: 145px;
+    margin: 20px;
+    background: #F9F9F9;
+}
+main #art1>dl dd dl dt{
+    height: 40px;
+    background: #E9E9E9;
+    font:12px/40px "微软雅黑";
+    padding:0px 10px;
+    color:#666666;
+}
+main #art1>dl dd dl dt span{
+    padding: 3px 8px;
+    background: #999999;
+    color:#fff;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+main #art1>dl dd dl dt time{
+    color:#F10180;
+}
+main #art1>dl dd dl dt a{
+    color:#1D94D1;
+    margin-left: 30px;
+}
+main #art1>dl dd dl dd ul{
+    padding: 15px;
+}
+main #art1>dl dd dl dd ul li{
+    float: left;
+    font-size: 12px;
+}
+main #art1>dl dd dl dd ul li:first-child{
+    width: 240px;
+}
+main #art1>dl dd dl dd ul li:first-child img{
+    height:75px;
+    margin-right: 10px;
+}
+main #art1>dl dd dl dd ul li a{
+    color:#333333;
+    line-height: 1.8em;
+}
+main #art1>dl dd dl dd ul li a:hover{
+    color:#F10180;
+}
+main #art1>dl dd dl dd ul li a:hover img{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+main #art1>dl dd dl dd ul li a span{
+    color:#F10180;
+}
+main #art1>dl dd dl dd ul li p{
+    color:#333333;
+    margin-top: 5px;
+}
+main #art1>dl dd dl dd ul li input{
+    width: 50px;
+    text-align: center;
+    padding-left: 3px;
+}
+main #art1>dl dd dl dd ul li:not(:last-child){
+    margin-right: 50px;
+}
+main #art1>dl dd dl dd ul li:first-child{
+    margin-right: 350px;
+}
+main #art2{
+    text-align: center;
+}
+main #art2 img{
+    width: 80%;
+    margin: 50px auto;
+}
+/*=======================footer=============================*/
+footer{
+    height: 480px;
+    background: #FCFCFC;
+    border: 1px solid #EBEBEB;
+    padding: 20px 0px;
+    font-size: 12px;
+    line-height: 1.8em;
+
+}
+footer h2{
+    width:90%;
+    margin: 0 auto;
+}
+footer h2 img{
+    width: 100%;
+}
+footer #f_list dl{
+    width: 16.66%;
+    float: left;
+    border-right:1px solid #E0E0E0;
+    padding: 0px 0px 0px 20px;
+    margin-top: 20px;
+}
+footer #f_list dl dd a{
+    color:#808080;
+    font-size: 11px;
+}
+footer #f_list dl dd a:hover{
+    color:#F10180;
+    transition: 0.2s all;
+    padding-left: 3px;
+}
+footer #f_list dl:last-child{
+    border: none;
+    text-align: center;
+}
+footer #f_list dl:last-child dd img{
+    width: 90px;
+    height: 90px;
+}
+footer p{
+    text-align: center;
+    font-size:10px ;
+}
+footer>p:nth-of-type(1){
+    background: #D7237E;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    text-align: center;
+    margin: 15px 0px;
+}
+footer #f_btm{
+    padding-top: 10px;
+    text-align: center;
+}

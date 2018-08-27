@@ -1,0 +1,24 @@
+header{
+    height: 60px;
+    padding: 10px 6%;
+    background: #0055AA;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    display: inline-block;
+    height: 40px;
+    font:16px/40px "微软雅黑";
+    font-weight: bold;
+    color:#fff;
+    letter-spacing:1.5px;
+    margin-left:10px;
+    padding-right: 20px;
+}
+header nav ul li:first-child a{
+    border-right:1px solid #fff;
+}
+header nav ul li a img{
+    height: 100%;
+}

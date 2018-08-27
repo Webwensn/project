@@ -1,0 +1,74 @@
+/*============================main========================*/
+main{
+    padding: 100px 0px;
+}
+main h2{
+    border-bottom:1px solid #ccc ;
+    padding-left: 25%;
+    font:16px/40px "微软雅黑";
+    font-weight: bold;
+}
+/*------------main article-------------*/
+main article{
+    width: 50%;
+    margin:30px 25%;
+}
+main article dl{
+    font-size: 14px;
+}
+main article dl dt{
+    width: 100%;
+    height: 36px;
+    background: url("../images/step1.png") no-repeat center;
+    margin-bottom:25px;
+}
+main article dl dd form{
+    margin-top: 25px;
+}
+main article dl dd form ul{
+    margin-bottom: 20px;
+}
+main article dl dd form ul li{
+    float: left;
+    height: 30px;
+    font: 14px/30px "微软雅黑";
+    margin-right: 10px;
+}
+main article dl dd form input{
+    padding: 5px;
+    height: 30px;
+}
+main article dl dd form input:focus{
+    border: 1px solid #ccc;
+}
+main article dl dd form ul:nth-of-type(1) input{
+    width: 250px;
+}
+main article dl dd form ul:nth-of-type(1) p{
+    color:#f00;
+    font-size: 12px;
+}
+main article dl dd form ul:nth-of-type(2) input{
+    width: 110px;
+}
+main article dl dd form ul:nth-of-type(2) img{
+    border: 1px solid #ccc;
+    height: 30px;
+}
+main article dl dd form ul:nth-of-type(2) a{
+    text-decoration: underline;
+    color:#2B78E4;
+}
+main article dl dd:last-child a{
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    background: #4995E0;
+    color:#fff;
+    font: 14px/32px "微软雅黑";
+}
+main article dl dd:last-child a:hover{
+    background: #f1f1f1;
+    color:#4995E0;
+}

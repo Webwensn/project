@@ -1,0 +1,29 @@
+#center {
+	z-index: 1;
+	/*POSITION: absolute;
+	TOP: 211%;
+	LEFT:75%*/
+	position: relative;
+	top: 102px;
+	right:230px;
+}
+#slider {
+	Z-INDEX: 1;
+	POSITION: absolute;
+	WIDTH:660px;
+	HEIGHT:400px;
+	OVERFLOW: hidden;
+	TOP: -186px;
+	LEFT: -430px
+}
+#slider .slide {
+	Z-INDEX: 1;
+	POSITION: absolute;
+	border-left:2px solid #fff;
+	WIDTH:800px;
+	BACKGROUND: #000;
+	HEIGHT:600px;
+	OVERFLOW: hidden;
+	TOP: 43px;
+	border-right:3px;
+}

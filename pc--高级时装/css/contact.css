@@ -1,0 +1,227 @@
+/*-----------------------------header-----------------------------------------*/
+/*=================header #h_top================*/
+header #h_top{
+    height: 350px;
+    background: url("../images/inner-page-banner.jpg") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    color:#fff;
+}
+header #h_top .aIn{
+    font:40px/150px "Arial" ;
+    height: 150px;
+    letter-spacing: -2px;
+    color:#fff;
+}
+header #h_top .aIn:hover{
+    color:#EF4C89;
+    transition: 0.5s all;
+}
+header #h_top h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+/*==============header nav====================*/
+
+header nav{
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    height:40px;
+    background:url("../images/menu.png") no-repeat  94% center  ;
+    -webkit-background-size: 3% 85%;
+    background-size: 3% 85%;
+    z-index: 999;
+}
+header nav ul{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 120px;
+    background: #000;
+    display: none;
+    z-index: 999;
+}header nav:hover ul{
+     display: block;
+     padding: 0px 32%;
+ }
+header nav:hover ul li{
+    float: left;
+    margin-left: 10px;
+}
+header nav:hover ul li a{
+    color:#fff;
+    display: inline-block;
+    width: 100px;
+    height: 120px;
+    font: 16px/120px "微软雅黑";
+    font-weight: bold;
+    background: url("../images/hul_1.jpg") no-repeat center left;
+    padding-left: 25px;
+}
+header nav:hover ul li:nth-of-type(2) a{
+    background: url("../images/hul_2.jpg") no-repeat center left;
+}
+header nav:hover ul li:nth-of-type(3) a{
+    background: url("../images/hul_3.jpg") no-repeat center left;
+}
+header nav:hover ul li:nth-of-type(4) a{
+    background: url("../images/hul_4.jpg") no-repeat center left;
+}
+header nav:hover ul li a:hover{
+    color: #EF4C89;
+}
+
+/*----------------------------------main-----------------------------------------------*/
+main{}
+main #sec1{
+    height: 550px;
+    padding:80px 6%;
+}
+main #sec1 dl dt{
+    width: 49%;
+}
+main #sec1 dl dt img{
+    width: 100%;
+}
+main #sec1 dl dd{
+    float: right;
+    width: 48%;
+}
+main #sec1 dl dd p{
+    margin-top:20px;
+    color: #333;
+}
+
+/*--------------main #sec2-------------*/
+main #sec2{
+    height: 530px;
+    background: url("../images/contact.jpg") no-repeat center;
+    color: #fff;
+    text-align: center;
+}
+main #sec2 h2{
+    padding:100px;
+    font:30px/30px "微软雅黑";
+}
+main #sec2 ul li{
+    float: left;
+    width: 33.33%;
+    height: 170px;
+}
+main #sec2 a{
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/location.png") no-repeat top center;
+    -webkit-background-size: 20%;
+    background-size: 20%;
+    padding-top:90px;
+}
+main #sec2 ul li:nth-of-type(2) a{
+    background: url("../images/phone.png") no-repeat top center;
+    -webkit-background-size:18%;
+    background-size: 18%;
+}
+main #sec2 ul li:nth-of-type(3) a{
+    background: url("../images/email.png") no-repeat top center;
+    -webkit-background-size:18%;
+    background-size: 18%;
+}
+main #sec2 a p{
+    font:24px/50px "微软雅黑";
+}
+main #sec2 a span{
+    font:14px/30px "微软雅黑";
+}
+/*==========================footer===============================*/
+footer{
+    height: 530px;
+    background: #000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0px 15%;
+}
+footer #f_top{
+
+}
+footer #f_top h2{
+    padding: 30px 0px;
+    font:32px/80px "微软雅黑";
+    font-weight:bold ;
+    color:#EF4C89;
+}
+/*-----------footer #f_top-----------*/
+footer #f_top p{
+    width: 600px;
+    margin: 0 auto;
+    font:14px/30px "微软雅黑";
+}
+footer #f_center{
+    width: 100%;
+    border-bottom:1px solid #CCCCCC ;
+    padding:30px 0px 10px 15px;
+}/*
+footer #f_center #sec4_dl{
+    width: 400%;
+    height: 455px;
+}*/
+footer #f_center dl{
+    text-align: left;
+    float: left;
+    width: 25%;
+    float: left;
+}
+footer #f_center dl dt{
+    font:18px/50px "微软雅黑";
+    height:50px;
+}
+footer #f_center dl dd{
+    background:url("../images/f_1.jpg") no-repeat center left;
+    padding-left: 20px;
+    font: 12px/26px "微软雅黑";
+}
+footer #f_center dl:nth-of-type(2) dd{
+    background:url("../images/f_2.jpg") no-repeat center left;
+}
+footer #f_center dl:nth-of-type(3) dd{
+    background:url("../images/f_3.jpg") no-repeat center left;
+}
+footer #f_center dl:nth-of-type(4) dd{
+    background:none;
+    padding-left: 0px;
+}
+footer #f_center dl:nth-of-type(4) dd input{
+    width: 100%;
+    height: 35px;
+    background: #333333;
+    border: none;
+    padding: 10px 10px;
+    color:#656565;
+}
+footer #f_center dl:nth-of-type(4) dd a{
+    display: inline-block;
+    width: 68px;
+    height: 32px;
+    background: #EF4C89;
+    color: #fff;
+    font: 14px/32px "微软雅黑";
+    text-align: center;
+    float: right;
+    margin-top: 15px;
+    font-weight: bold;
+}
+footer #f_center dl dd a{
+    color:#CCCCCC;
+}
+footer #f_center dl dd a:hover{
+    color: #fff;
+}
+
+/*-----------footer #f_btm------------------*/
+footer #f_btm{
+    font:14px/120px "微软雅黑";
+    height: 120px;
+}

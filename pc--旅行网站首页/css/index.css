@@ -1,0 +1,453 @@
+/*全局样式*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:"微软雅黑" ;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none
+}
+.over_f{
+    overflow: hidden;
+}
+.float_l{
+    float: left;
+}
+.float_r{
+    float:right;
+}
+.pad_08{
+    padding: 0px 8%;
+}
+.button_a{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height:38px;
+    display: block;
+    width: 110px;
+    height: 38px;
+}
+.dd_p{
+    font-size: 14px;
+    line-height:2em;
+    color:#999999;
+}
+/*局部样式*/
+body{
+    position: relative;
+}
+header,main,footer{
+    width: 100%;
+    min-width: 1080px;
+}
+/*move_top*/
+#move_top{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url("../images/move-top.png") no-repeat center;
+    z-index: 10;
+    position:fixed;
+    right:30px;
+    bottom:30px;
+}
+/*header*/
+header{
+    height: 662px;
+    background: url("../images/banner.jpg") no-repeat fixed center left;
+    animation:  dh1 5s infinite linear 0.5s  alternate ;
+    z-index: 1;
+    position: relative;
+}
+@keyframes dh1 {
+    0%{
+        background: url("../images/banner.jpg") fixed center left;
+    }
+    100%{
+        background: url("../images/banner.jpg") fixed center right ;
+    }
+}
+
+/*header #h_top*/
+header #h_top{
+    width: 100%;
+    height: 75px;
+    padding:2px 8%;
+    background: rgba(0, 0, 0, .6);
+    line-height: 75px;
+    top:0px;
+    z-index: 100;
+}
+header #h_top h1{
+    color: #fff;
+    font-size:35px;
+    text-shadow: 0px 0px 3px #ccc;
+}
+header #h_top nav ul li{
+    float: left;
+    margin-left: 30px;
+}
+header #h_top nav ul li a{
+    color:#fff;
+    display: inline-block;
+    text-align: center;
+    width:70px;
+    height: 67px;
+    line-height: 67px;
+    font-size: 16px;
+    transition: 0.5s all;
+}
+header #h_top nav ul li a:hover{
+    border-bottom:5px solid #fff;
+}
+
+/*header #h_btm*/
+header #h_btm{
+    width: 820px;
+    height: 330px;
+    background: rgba(0, 0, 0, .5);
+    color:#fff;
+    position: absolute;
+    top: 250px;
+    left:200px;
+    padding:60px 30px 0px;
+}
+header #h_btm h2{
+    font-family: "楷体";
+    font-size:38px;
+    font-weight: bolder;
+    margin-bottom:15px;
+}
+header #h_btm p{
+    font-family: "楷体";
+    font-size:18px;
+    font-weight: bold;
+}
+header #h_btm p span{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "华文行楷";
+}
+header #h_btm>span{
+    float: right;
+    margin-top:40px;
+}
+header #h_btm>span a{
+    border: 1px solid #fff;
+    z-index: 100;
+    transition: 0.5s all;
+}
+header #h_btm>span a:hover{
+    background: #12B8C7 0px 0px;
+}
+/*main*/
+main{
+    width: 100%;
+}
+
+main #m_sec1{
+    margin-top:80px;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+main #m_sec1 dl{
+    height: 450px;
+    width: 760px;
+    position: relative;
+}
+main #m_sec1 dl dt{
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .5);
+}
+main #m_sec1 dl dt img{
+    width: 100%;
+    height: 100%;
+}
+main #m_sec1 dl dt:hover img{
+    transition: 2s all;
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+main #m_sec1 dl dd:nth-child(2){
+    width: 458px;
+    height: 120px;
+    background: #F3F3F3;
+    position: absolute;
+    top:150px;
+    left:300px;
+    box-shadow: 2px 2px 5px #cccec2;
+}
+main #m_sec1 dl dd p{
+    width:340px;
+    position: absolute;
+    top:185px;
+    left:400px;
+}
+main #m_sec1 dl dd p:first-letter{
+    font-size: 28px;
+}
+main #m_sec1 dl dd p span{
+    display:block;
+    width: 500px;
+}
+main #m_sec1 dl dd a{
+    position: absolute;
+    top:370px;
+    left:800px;
+    background: #12B8C7;
+}
+main #m_sec1 dl dd a:hover,main #m_sec2 dl dd a:hover,main #m_sec3 .sec3_main form a:hover{/*
+    transform: scale(1.1);*/
+    transform: rotateY(360deg);
+    transition: 2s all;
+}
+main #m_sec1 h3{
+    width: 400px;
+    line-height:2em;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right:100px;
+    text-align: right;
+}
+
+/*main #m_sec2*/
+main #m_sec2{
+    margin-top:60px;
+    width: 100%;
+}
+main #m_sec2 dl{
+    padding:50px 0px 0px;
+    height: 400px;
+    width: 100%;
+    z-index: 1;
+}
+main #m_sec2 dl dt{
+    position: relative;
+}
+main #m_sec2 dl dd{
+    width: 450px;
+}
+main #m_sec2 dl dd h3{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+main #m_sec2 dl dd p{
+    text-indent: 2em;
+}
+main #m_sec2 dl dd a{
+    background:#12B8C7;
+    margin-top: 50px;
+}
+
+
+/*main #m_sec3*/
+main #m_sec3{
+    margin-top: 35px;
+    border:1px solid #000;
+    height: 500px;
+    background:rgba(0,0,0,.5) url("../images/bg1.jpg") no-repeat fixed 100% 100%;
+    position: relative;
+    z-index: 1;
+}
+main #m_sec3 .sec3_main{
+    height: 300px;
+    width: 700px;
+    margin: 60px auto;/*
+    border: 1px solid #fff;*/
+    color:#fff;
+    text-align: center;
+}
+main #m_sec3 .sec3_main h3{
+    font-size:36px;
+    letter-spacing: 15px;/*
+    height: 150px;*/
+    line-height: 150px;
+}
+main #m_sec3 .sec3_main h3:hover,main #m_sec4 dl dt h3:hover{
+    transform: rotateX(360deg);
+    transition: 2s;
+}
+main #m_sec3 .sec3_main p{
+    font-size: 14px;
+    line-height: 2em;
+}
+main #m_sec3 .sec3_main p:hover{
+    animation: dh2 2s linear;
+    transition: 2s all;
+}
+@keyframes dh2 {
+    0%{
+        padding: 0;
+    }
+    50%{
+        padding-right: 130px;
+    }
+    100%{
+        padding-left: 130px;
+    }
+}
+main #m_sec3 .sec3_main form{
+    margin-top: 70px;
+}
+main #m_sec3 .sec3_main form input:first-child{
+    width:540px;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 10px;
+}
+main #m_sec3 .sec3_main form a{
+    display: inline-block;
+    background: #12B8C7;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*main #m_sec4*/
+main #m_sec4{
+    margin: 0px auto;
+    text-align: center;
+}
+main #m_sec4 dl{
+    background: #F7F7F7;
+    padding-top: 20px;
+}
+main #m_sec4 dl dt h3{
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin-bottom: -20px;
+    height: 180px;
+    line-height: 180px;
+}
+main #m_sec4 dl dt h3:first-letter{
+    font-size: 40px;
+}
+main #m_sec4 dl .sec4_p{
+    color:#333333;
+    font-size:14px;
+    line-height: 1.8em;
+    text-align: center;
+}
+main #m_sec4 dl .sec4_p:hover{
+    animation: 2s dh3 linear;
+}
+@keyframes dh3 {
+    0%{
+        padding: 0px;
+    }
+    25%{
+        padding-left: 50px;
+    }
+    50%{
+        padding:0px;
+    }
+    75%{
+        padding-right:50px;
+    }
+    100%{
+        padding:0px;
+    }
+}
+main #m_sec4 dl dd figure{
+    width: 30%;
+}
+
+/*main #m_sec5*/
+main #m_sec5{
+    height: 470px;
+}
+main #m_sec5 h3{
+    font-size: 32px;
+    margin:70px 0px;
+    font-weight: normal;
+}
+main #m_sec5 dl{
+    width: 500px;
+    height: 100px;
+    float: left;
+    margin:0px 0px 30px 55px;
+}
+main #m_sec5 dl dt{
+    text-align: center;
+    width: 90px;
+    height:90px;
+    border: 3px solid #000;
+    border-radius:50%;
+}
+main #m_sec5 dl dt img{
+    width:70%;
+    position: relative;
+    top:10px;
+}
+main #m_sec5 dl dt:hover{
+    transform: rotateZ(360deg);
+    transition: 2s all;
+}
+main #m_sec5 dl dd{
+    width: 380px;
+}
+main #m_sec5 dl dd h4{
+    font-size: 22px;
+    color:#7DD4D9;
+    margin: 0px 0px 10px 0px;
+}
+main #m_sec5 dl dd h4:hover{
+    font-size:30px ;
+    transition: 1s all;
+}
+main #m_sec5 dl dd p{
+    font-size: 14px;
+    color:#777777;
+    line-height: 1.5em;
+}
+/*footer*/
+footer{
+    background: #333;
+    width: 100%;
+    height: 300px;
+    color:#fff;
+    padding:80px 0;
+    font-size: 14px;
+}
+/*footer #f_btm*/
+footer #f_btm{
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    padding: 20px;
+}
+footer #f_btm nav{
+    padding: 10px 55px;
+}
+footer #f_btm nav ul li{
+    float: left;
+    margin-left:10px;
+    padding-right: 10px;
+}
+footer #f_btm nav ul li a{
+    color:#fff;
+}
+footer #f_btm nav ul li a:hover{
+    color: #7DD4D9;
+}
+footer #f_btm p{
+    margin: 10px 0px;
+}
+footer #f_btm span a{
+    color: #fff;
+}
+footer #f_btm span a:hover{
+    color: #7DD4D9;
+}

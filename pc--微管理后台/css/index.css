@@ -1,0 +1,201 @@
+header ol li a{
+    display: inline-block;
+    height: 40px;
+    font:14px/40px "微软雅黑";
+    color:#fff;
+    margin-left: 20px;
+}
+/*========================main=====================*/
+main{
+    padding: 20px 6%;
+}
+main aside{
+    width: 30%;
+}
+main aside dl dt{
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    height: 82px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+main aside dl dt a{
+    display: inline-block;
+    height:100%;
+    width:33.33%;
+    text-align: center;
+    border-right:1px solid #DDDDDD;
+    background: url("../images/tjbm.png") no-repeat center 5px ;
+    -webkit-background-size: 40%;
+    background-size: 40%;
+    color:#428BCA;
+    font-size: 14px;
+    padding-top:55px;
+}
+main aside dl dt a:nth-child(2){
+    background: url("../images/tjyg.png") no-repeat center 5px;
+    -webkit-background-size: 40%;
+    background-size: 40%;
+}
+main aside dl dt a:last-child{
+    border-right:none ;
+    background: url("../images/dryg.png") no-repeat center 5px;
+    -webkit-background-size: 40%;
+    background-size: 40%;
+}
+main aside dl dt a:hover{
+    background-color: #428BCA;
+    color:#fff;
+}
+main aside dl dd{
+    height: 266px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+main aside dl dd h3{
+    border-bottom: 1px solid #DDDDDD;
+    font: 16px/30px "宋体";
+    font-weight: bold;
+    padding: 5px 10px;
+}
+main aside dl dd #search{
+    padding: 15px 10px 20px;
+    position: relative;
+}
+main aside dl dd #search input{
+    width: 100%;
+    height: 40px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding: 5px 15px;
+}
+main aside dl dd #search a{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    position: absolute;
+    right: 15px;
+    top:20px;
+}
+main aside dl dd #search img{
+    width: 100%;
+    height: 100%;
+}
+main aside dl dd ul{
+    margin: 0px 10px;
+    padding-top: 10px;
+    border-top: 1px solid #DDDDDD;
+}
+main aside dl dd ul li{
+    font:16px/40px "宋体";
+    height: 40px;
+    text-align: center;
+    margin: 0px 10px;
+    border-bottom: 1px solid #EDEDED;
+}
+main aside dl dd ul li a{
+    color:#555555;
+}
+main aside dl dd ul li a:hover{
+    color:#5255AA;
+}
+main article{
+    height: 300px;
+    border: 1px solid #DDDDDD;
+    width: 68%;
+    border-radius: 5px;
+}
+main article dl{
+
+}
+main article dl dt{
+    height: 60px;
+    padding:18px 25px;
+    border-bottom:1px solid #ddd;
+}
+main article dl dt h3{
+    font-size: 20px;
+    color:#555555;
+    margin-right:20px;
+}
+main article dl dt a{
+    width: 50px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    font: 14px/24px "微软雅黑";
+    text-align: center;
+    border-radius:5px;
+    color:#428BCA;
+}
+main article dl dt input{
+    background: #428BCA;
+    width: 116px;
+    height: 26px;
+    border:none;
+    font:12px/26px "微软雅黑";
+    text-align: center;
+    border-radius: 5px;
+    color:#fff;
+}
+main article dl dd h4{
+    padding: 15px 25px 25px;
+    font: 18px/1em "微软雅黑";
+    color:#428BCD;
+}
+main article dl dd ul{
+    height: 32px;
+    margin: 0px 15px;
+    border:1px solid #ddd;
+}
+main article dl dd ul li{
+    height: 100%;
+    width: 132px;
+    font-size: 14px;
+    line-height: 32px;
+    border-right: 1px solid #ddd;
+    float: left;
+    padding: 0px 10px;
+}
+main article dl dd ul li:nth-child(1),main article dl dd ul li:nth-child(4){
+    width: 85px;
+}
+main article dl dd ul li:nth-child(5){
+     width: 194px;
+ }
+main article dl dd ul li:last-child{
+    border: none;
+}
+main article dl dd ul li h5{
+    font-size: 14px;
+    color:#555555;
+}
+main article dl dd ul li input{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+main article dl dd ul li input[type="button"]{
+    width: 35px;
+    height: 20px;
+    background: #5CB85C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font: 12px/20px "微软雅黑";
+}
+main article dl dd ul li a{
+    margin-right: 15px;
+    color: #428BCA;
+}
+main article dl dd ul li a:last-child{
+    margin-right: 15px;
+    color: #FF0000;
+}
+/*=======================footer========================*/
+footer{
+    color:#555555;
+    font:12px/50px "宋体";
+    text-align: center;
+}

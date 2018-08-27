@@ -1,0 +1,117 @@
+/*========================main==========================*/
+main{
+    padding: 0px 6%;
+}
+main dl dt{
+    width: 100%;
+    height: 92px;
+    border:1px solid #DDDDDD;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+main dl dt ul{
+    width:380px;
+    margin: 0 auto;
+}
+main dl dt ul li{
+    float: left;
+    font:16px/92px "微软雅黑";
+    margin-right:70px;
+}
+main dl dt ul li span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font:26px/40px "微软雅黑";
+    background: #428BCA;
+    color:#fff;
+    font-weight: bold;
+    margin-right: 5px;
+}
+main dl dt ul li:nth-child(2) span{
+    background: #DDDDDD;
+}
+main dl dt ul li:nth-child(2) span:hover{
+    background: #428BCA;
+}
+main dd{
+    height: 600px;
+    border:1px solid #DDDDDD;
+    border-radius: 5px;
+}
+main dd ul{
+    width:600px;
+    margin: -10px auto;
+}
+main dd ul li{
+    margin-top: 30px;
+}
+main dd ul li span{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    font:16px/40px "微软雅黑";
+    text-align: right;
+    font-weight: bold;
+    margin-right:20px;
+}
+main dd ul li span time{
+    color:#FF0000;
+    margin-right: 5px;
+}
+main dd ul li:first-child{
+    margin-bottom: 50px;
+}
+main dd ul li input{
+    width: 462px;
+    height: 40px;
+    border:1px solid #CCCCCC;
+    border-radius:5px;
+    font: 16px/40px "微软雅黑";
+    padding: 0px 20px;
+}
+main dd ul li input[type="image"]{
+    border: none;
+    position: relative;
+    top:35px;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+}
+main dd ul li select{
+    height:40px;
+    width:462px;
+    border: 1px solid #CCCCCC;
+    border-radius:5px;
+    font:16px/40px "微软雅黑";
+    padding: 0px 20px;
+}
+main dd ul li:nth-child(4) select{
+    width: 185px;
+    margin-right: 35px;
+}
+main dd ul li:last-child{
+    text-align: center;
+}
+main dd ul li:last-child a{
+    width: 130px;
+    display: inline-block;
+    background: #0055AA;
+    height: 40px;
+    font: 16px/40px "微软雅黑";
+    text-align: center;
+    color: #fff;
+    border-radius:5px;
+}
+main dd ul li:last-child a:hover{
+    background: #c1c1c1;
+    color: #0055AA ;
+}
+/*=======================footer========================*/
+footer{
+    color:#555555;
+    font:12px/50px "宋体";
+    text-align: center;
+}
